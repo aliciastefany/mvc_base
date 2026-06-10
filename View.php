@@ -10,7 +10,7 @@ class View {
         return "
             <h1>Calculadora</h1>
             <p>Número 1: {$this->model->numero1}</p>
-            <p>Número 2: {$this->model->numero1}</p>
+            <p>Número 2: {$this->model->numero2}</p>
             <p><strong>Resultado:</strong> {$this->model->resultado}</p>
             <a href='index.php?action=somar'>Somar</a> | 
             <a href='index.php?action=subtrair'>Subtrair</a> | 
